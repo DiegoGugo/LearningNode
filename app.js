@@ -13,8 +13,7 @@ app.use(bodyParser.json());
 //CORS
 
 //añadir prefijos a rutas/cargar rutas
-app.use('/',article_routes)
-//Ruta o método de peruba para la API REST
+app.use('/',article_routes)//Ruta o método de peruba para la API REST
 
 
 //exportar modulo
